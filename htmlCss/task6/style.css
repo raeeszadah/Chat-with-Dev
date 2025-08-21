@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/*baground*/
+#base{
+    height: 100%;
+    width: 1005;
+   /*--background-color: rgb(240, 197, 192);--*/
+}
+/*navigation bar*/
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#nav h3{
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #000;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+}
+#nav i{
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #000;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+}
+#nav h1{
+    font-weight: 300;
+    font-size: 25px;
+    text-transform: uppercase;
+   
+   
+}
+#nav button{
+    font-size: 16px;
+    font-weight: 500;
+    border: 2px solid #000;
+    padding: 5px 10px;
+    border-radius: 50px;
+    
+}
+#btn2{
+    background-color: orangered;
+    color: aliceblue;
+    border: none;
+}
+/*baground items*/
+#base>h1{
+    font-size: 100px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-position: top;
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+/*buttom left text*/
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+/*page changer*/
+#page{ 
+    
+    display: flex;
+    justify-content:center;
+    
+}
+#page i{
+    position: absolute;
+    bottom: 0;
+    font-size: 20px;
+    border:#000 solid 2px;
+    padding: 5px 10px;
+    border-top-right-radius:360% ;
+    border-top-left-radius:360% ;
+}
+/*social media page section*/
+#info{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 17px;
+}
+#links{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+#links i{
+    font-size: 20px;
+    font-weight: 400%;
+}
